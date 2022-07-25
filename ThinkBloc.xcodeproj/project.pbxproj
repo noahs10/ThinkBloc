@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E797608288E79C30027D4BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E797607288E79C30027D4BF /* AppDelegate.swift */; };
+		6E79760A288E79C30027D4BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E797609288E79C30027D4BF /* SceneDelegate.swift */; };
+		6E79760C288E79C30027D4BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E79760B288E79C30027D4BF /* ViewController.swift */; };
+		6E79760F288E79C30027D4BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E79760D288E79C30027D4BF /* Main.storyboard */; };
+		6E797612288E79C30027D4BF /* ThinkBloc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E797610288E79C30027D4BF /* ThinkBloc.xcdatamodeld */; };
+		6E797614288E79C60027D4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E797613288E79C60027D4BF /* Assets.xcassets */; };
+		6E797617288E79C60027D4BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E797615288E79C60027D4BF /* LaunchScreen.storyboard */; };
+		6E797622288E79C60027D4BF /* ThinkBlocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E797621288E79C60027D4BF /* ThinkBlocTests.swift */; };
+		6E79762C288E79C60027D4BF /* ThinkBlocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E79762B288E79C60027D4BF /* ThinkBlocUITests.swift */; };
+		6E79762E288E79C60027D4BF /* ThinkBlocUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E79762D288E79C60027D4BF /* ThinkBlocUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E79761E288E79C60027D4BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E7975FC288E79C30027D4BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E797603288E79C30027D4BF;
+			remoteInfo = ThinkBloc;
+		};
+		6E797628288E79C60027D4BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E7975FC288E79C30027D4BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E797603288E79C30027D4BF;
+			remoteInfo = ThinkBloc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E797604288E79C30027D4BF /* ThinkBloc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkBloc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E797607288E79C30027D4BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E797609288E79C30027D4BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E79760B288E79C30027D4BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E79760E288E79C30027D4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E797611288E79C30027D4BF /* ThinkBloc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThinkBloc.xcdatamodel; sourceTree = "<group>"; };
+		6E797613288E79C60027D4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E797616288E79C60027D4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E797618288E79C60027D4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E79761D288E79C60027D4BF /* ThinkBlocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkBlocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E797621288E79C60027D4BF /* ThinkBlocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkBlocTests.swift; sourceTree = "<group>"; };
+		6E797627288E79C60027D4BF /* ThinkBlocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkBlocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E79762B288E79C60027D4BF /* ThinkBlocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkBlocUITests.swift; sourceTree = "<group>"; };
+		6E79762D288E79C60027D4BF /* ThinkBlocUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkBlocUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E797601288E79C30027D4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E79761A288E79C60027D4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E797624288E79C60027D4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E7975FB288E79C30027D4BF = {
+			isa = PBXGroup;
+			children = (
+				6E797606288E79C30027D4BF /* ThinkBloc */,
+				6E797620288E79C60027D4BF /* ThinkBlocTests */,
+				6E79762A288E79C60027D4BF /* ThinkBlocUITests */,
+				6E797605288E79C30027D4BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E797605288E79C30027D4BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E797604288E79C30027D4BF /* ThinkBloc.app */,
+				6E79761D288E79C60027D4BF /* ThinkBlocTests.xctest */,
+				6E797627288E79C60027D4BF /* ThinkBlocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E797606288E79C30027D4BF /* ThinkBloc */ = {
+			isa = PBXGroup;
+			children = (
+				6E797607288E79C30027D4BF /* AppDelegate.swift */,
+				6E797609288E79C30027D4BF /* SceneDelegate.swift */,
+				6E79760B288E79C30027D4BF /* ViewController.swift */,
+				6E79760D288E79C30027D4BF /* Main.storyboard */,
+				6E797613288E79C60027D4BF /* Assets.xcassets */,
+				6E797615288E79C60027D4BF /* LaunchScreen.storyboard */,
+				6E797618288E79C60027D4BF /* Info.plist */,
+				6E797610288E79C30027D4BF /* ThinkBloc.xcdatamodeld */,
+			);
+			path = ThinkBloc;
+			sourceTree = "<group>";
+		};
+		6E797620288E79C60027D4BF /* ThinkBlocTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E797621288E79C60027D4BF /* ThinkBlocTests.swift */,
+			);
+			path = ThinkBlocTests;
+			sourceTree = "<group>";
+		};
+		6E79762A288E79C60027D4BF /* ThinkBlocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E79762B288E79C60027D4BF /* ThinkBlocUITests.swift */,
+				6E79762D288E79C60027D4BF /* ThinkBlocUITestsLaunchTests.swift */,
+			);
+			path = ThinkBlocUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E797603288E79C30027D4BF /* ThinkBloc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E797631288E79C60027D4BF /* Build configuration list for PBXNativeTarget "ThinkBloc" */;
+			buildPhases = (
+				6E797600288E79C30027D4BF /* Sources */,
+				6E797601288E79C30027D4BF /* Frameworks */,
+				6E797602288E79C30027D4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinkBloc;
+			productName = ThinkBloc;
+			productReference = 6E797604288E79C30027D4BF /* ThinkBloc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E79761C288E79C60027D4BF /* ThinkBlocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E797634288E79C60027D4BF /* Build configuration list for PBXNativeTarget "ThinkBlocTests" */;
+			buildPhases = (
+				6E797619288E79C60027D4BF /* Sources */,
+				6E79761A288E79C60027D4BF /* Frameworks */,
+				6E79761B288E79C60027D4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E79761F288E79C60027D4BF /* PBXTargetDependency */,
+			);
+			name = ThinkBlocTests;
+			productName = ThinkBlocTests;
+			productReference = 6E79761D288E79C60027D4BF /* ThinkBlocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E797626288E79C60027D4BF /* ThinkBlocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E797637288E79C60027D4BF /* Build configuration list for PBXNativeTarget "ThinkBlocUITests" */;
+			buildPhases = (
+				6E797623288E79C60027D4BF /* Sources */,
+				6E797624288E79C60027D4BF /* Frameworks */,
+				6E797625288E79C60027D4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E797629288E79C60027D4BF /* PBXTargetDependency */,
+			);
+			name = ThinkBlocUITests;
+			productName = ThinkBlocUITests;
+			productReference = 6E797627288E79C60027D4BF /* ThinkBlocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E7975FC288E79C30027D4BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					6E797603288E79C30027D4BF = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					6E79761C288E79C60027D4BF = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 6E797603288E79C30027D4BF;
+					};
+					6E797626288E79C60027D4BF = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 6E797603288E79C30027D4BF;
+					};
+				};
+			};
+			buildConfigurationList = 6E7975FF288E79C30027D4BF /* Build configuration list for PBXProject "ThinkBloc" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E7975FB288E79C30027D4BF;
+			productRefGroup = 6E797605288E79C30027D4BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E797603288E79C30027D4BF /* ThinkBloc */,
+				6E79761C288E79C60027D4BF /* ThinkBlocTests */,
+				6E797626288E79C60027D4BF /* ThinkBlocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E797602288E79C30027D4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E797617288E79C60027D4BF /* LaunchScreen.storyboard in Resources */,
+				6E797614288E79C60027D4BF /* Assets.xcassets in Resources */,
+				6E79760F288E79C30027D4BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E79761B288E79C60027D4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E797625288E79C60027D4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E797600288E79C30027D4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E797612288E79C30027D4BF /* ThinkBloc.xcdatamodeld in Sources */,
+				6E79760C288E79C30027D4BF /* ViewController.swift in Sources */,
+				6E797608288E79C30027D4BF /* AppDelegate.swift in Sources */,
+				6E79760A288E79C30027D4BF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E797619288E79C60027D4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E797622288E79C60027D4BF /* ThinkBlocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E797623288E79C60027D4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E79762C288E79C60027D4BF /* ThinkBlocUITests.swift in Sources */,
+				6E79762E288E79C60027D4BF /* ThinkBlocUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E79761F288E79C60027D4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E797603288E79C30027D4BF /* ThinkBloc */;
+			targetProxy = 6E79761E288E79C60027D4BF /* PBXContainerItemProxy */;
+		};
+		6E797629288E79C60027D4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E797603288E79C30027D4BF /* ThinkBloc */;
+			targetProxy = 6E797628288E79C60027D4BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E79760D288E79C30027D4BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E79760E288E79C30027D4BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E797615288E79C60027D4BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E797616288E79C60027D4BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E79762F288E79C60027D4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E797630288E79C60027D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E797632288E79C60027D4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FG797UN2G2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThinkBloc/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahpersonal.ThinkBloc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E797633288E79C60027D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FG797UN2G2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThinkBloc/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahpersonal.ThinkBloc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E797635288E79C60027D4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FG797UN2G2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahpersonal.ThinkBlocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinkBloc.app/ThinkBloc";
+			};
+			name = Debug;
+		};
+		6E797636288E79C60027D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FG797UN2G2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahpersonal.ThinkBlocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinkBloc.app/ThinkBloc";
+			};
+			name = Release;
+		};
+		6E797638288E79C60027D4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FG797UN2G2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahpersonal.ThinkBlocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThinkBloc;
+			};
+			name = Debug;
+		};
+		6E797639288E79C60027D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FG797UN2G2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahpersonal.ThinkBlocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThinkBloc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E7975FF288E79C30027D4BF /* Build configuration list for PBXProject "ThinkBloc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E79762F288E79C60027D4BF /* Debug */,
+				6E797630288E79C60027D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E797631288E79C60027D4BF /* Build configuration list for PBXNativeTarget "ThinkBloc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E797632288E79C60027D4BF /* Debug */,
+				6E797633288E79C60027D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E797634288E79C60027D4BF /* Build configuration list for PBXNativeTarget "ThinkBlocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E797635288E79C60027D4BF /* Debug */,
+				6E797636288E79C60027D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E797637288E79C60027D4BF /* Build configuration list for PBXNativeTarget "ThinkBlocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E797638288E79C60027D4BF /* Debug */,
+				6E797639288E79C60027D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E797610288E79C30027D4BF /* ThinkBloc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E797611288E79C30027D4BF /* ThinkBloc.xcdatamodel */,
+			);
+			currentVersion = 6E797611288E79C30027D4BF /* ThinkBloc.xcdatamodel */;
+			path = ThinkBloc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E7975FC288E79C30027D4BF /* Project object */;
+}
